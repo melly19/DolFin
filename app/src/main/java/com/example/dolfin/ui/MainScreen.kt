@@ -22,7 +22,7 @@ fun MainScreen() {
     val navController = rememberNavController()
     val items = listOf(
         BottomNavItem("Home", ImageVector.vectorResource(id = R.drawable.ic_home_black_24dp)),
-        BottomNavItem("Quiz", ImageVector.vectorResource(id = R.drawable.ic_notifications_black_24dp)),
+        BottomNavItem("Quiz", ImageVector.vectorResource(id = R.drawable.ic_fact_check_24dp)),
         BottomNavItem("Newsplash", ImageVector.vectorResource(id = R.drawable.ic_newspaper_24dp))
     )
     val selectedItem = remember { mutableStateOf(items[0]) }
