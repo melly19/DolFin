@@ -27,15 +27,15 @@ fun HomeScreen() {
         verticalArrangement = Arrangement.Center
     ) {
         Button(onClick = { showScamsDialog = true }) {
-            Text("Learn About Scams")
+            Text("Learn about scams")
         }
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = { showMeasuresDialog = true }) {
-            Text("Preventive Measures")
+            Text("Preventive measures")
         }
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = { showHelpDialog = true }) {
-            Text("Seek Help")
+            Text("Where to seek help as a victim of fraud")
         }
     }
 

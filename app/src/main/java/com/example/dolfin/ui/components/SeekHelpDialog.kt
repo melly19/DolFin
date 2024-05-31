@@ -23,7 +23,7 @@ fun SeekHelpDialog(onDismiss: () -> Unit) {
                 Text("Close")
             }
         },
-        title = { Text("How to Seek Help") },
+        title = { Text("Seeking Help as a Victim of Scams") },
         text = {
             Column(
                 modifier = Modifier
@@ -32,43 +32,32 @@ fun SeekHelpDialog(onDismiss: () -> Unit) {
                     .padding(16.dp)
             ) {
                 Text(buildAnnotatedString {
-                    append("Paragraph 1: ")
                     withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
-                        append("Steps to take if you are scammed")
+                        append("1) Confide in your loved ones")
                     }
-                    append("...")
+                    append("It is common for victims of scams to feel shame and helplessness. Being scammed might lead to lower self-esteem and isolating behaviour. The loss of self-esteem that comes with internalised shame may cause victims to isolate themselves and choose not to disclose their struggles.")
+                    append("Therefore, it is important that you talk about what happened to you with trusted family members and friends. While this can be a vulnerable step, having someone know about what happened and walk with you through the difficult emotions, thoughts and consequences will be helpful in the long run.")
                 })
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(buildAnnotatedString {
-                    append("Paragraph 2: ")
                     withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
-                        append("How to report a scam")
+                        append("2) Report the scam to the authorities")
                     }
-                    append("...")
+                    append("Those who have information on scams can call the Police Hotline at 1800-255-0000, or submit the information online at www.police.gov.sg/iwitness or via the Police@SG mobile app.")
                 })
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(buildAnnotatedString {
-                    append("Paragraph 3: ")
                     withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
-                        append("Available resources for scam victims")
+                        append("3) Plan things out")
                     }
-                    append("...")
+                    append("Work on a plan to recover financially, emotionally, and/or relationally. Remember that it will be a long journey, but everyone has to start somewhere. Find out what you next step towards recovery is and take it, be it doing research on the process of recovering the money, making reports or attending counselling sessions to work on personal trauma.")
                 })
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(buildAnnotatedString {
-                    append("Paragraph 4: ")
                     withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
-                        append("Legal advice and support options")
+                        append("4) Safeguard yourself against future scams")
                     }
-                    append("...")
-                })
-                Spacer(modifier = Modifier.height(8.dp))
-                Text(buildAnnotatedString {
-                    append("Paragraph 5: ")
-                    withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
-                        append("Preventive measures to avoid future scams")
-                    }
-                    append("...")
+                    append("Remember that if a deal appears too good ot be true, it probably is not. Scammers will tend to reach out to you first - approach instead of respond. Official and credible organisations will rarely contact you directly via your phone number or email, and at the very most will rely only on advertisements targeted at the general public. Remember to only use official and credible sources.")
                 })
             }
         }
