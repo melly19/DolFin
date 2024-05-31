@@ -67,7 +67,7 @@ dependencies {
     implementation(composeBom)
     androidTestImplementation(composeBom)
 
-    // Choose one of the following:
+    implementation("androidx.compose.ui:ui")
     // Material Design 3
     implementation("androidx.compose.material3:material3")
 
