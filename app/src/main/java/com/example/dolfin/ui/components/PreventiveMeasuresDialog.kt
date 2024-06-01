@@ -46,11 +46,17 @@ fun PreventiveMeasuresDialog(onDismiss: () -> Unit) {
                     withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
                         append("If you have already fallen victim to a scam...")
                     }
+                    Spacer(modifier = Modifier.height(8.dp))
                     append("1) Don't pay any more money, and be on the lookout for recovery frauds.")
+                    Spacer(modifier = Modifier.height(8.dp))
                     append("2) Collect all pertinent information and documents, including but not limited to: names, titles or positions used by the fraudsters, social media profiles, website addresses, emails.")
+                    Spacer(modifier = Modifier.height(8.dp))
                     append("3) Protect your identity and accounts. If the scam has used credit card information, contact card issuers to make a fraud report.")
+                    Spacer(modifier = Modifier.height(8.dp))
                     append("4) Report the fraud to the authorities.")
+                    Spacer(modifier = Modifier.height(8.dp))
                     append("5) Check insurance coverage and other financial recovery steps.")
+                    Spacer(modifier = Modifier.height(8.dp))
                     append("6) Consider building your resistance to fraud with DolFin's helpful information :)")
                 })
             }
