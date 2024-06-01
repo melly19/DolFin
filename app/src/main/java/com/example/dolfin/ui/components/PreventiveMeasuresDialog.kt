@@ -39,7 +39,7 @@ fun PreventiveMeasuresDialog(onDismiss: () -> Unit) {
                     withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
                         append("If you discover that something is a fraud...")
                     }
-                    append("Do something.")
+                    append("Do not engage with the fraudsters and block them.")
                 })
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(buildAnnotatedString {
